@@ -1,0 +1,14 @@
+file3: 
+2
+2
+2
+3
+3
+3
+
+echo "# test2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mostafaalkama/test2.git
+git push -u origin master
